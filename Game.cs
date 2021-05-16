@@ -1,0 +1,60 @@
+using System;
+
+namespace ObjectPractice
+{
+    class Objects
+    {
+        public static void Main()
+        {
+            //Tower tower = new Tower();
+            Map map = new Map(8, 5);
+
+            //int area = map.Width * map.Height;
+            
+            //Point point = new Point(4, 2); <--substituting maplocation for Point as a subclass
+            //MapLocation x = new MapLocation(4, 2);
+            try
+            {
+            MapLocation mapLocation = new MapLocation(20, 20, map);
+            }
+            catch(OutOfBoundsException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch(GameDefenseException)
+            {
+                Console.WriteLine("Unhandled GameDefenseException");                
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Unhandled Exception");
+            }
+            //bool isOnMap = map.OnMap(point);
+            //Console.WriteLine(isOnMap);
+
+            //Point x = new MapLocation (4, 2); <--can be used instead of MapLocation
+            
+            //Point p = mapLocation;
+            
+            //point = new Point(8, 5);
+            //isOnMap = map.OnMap(point);
+            //Console.WriteLine(isOnMap);
+
+            //map.OnMap(new MapLocation(0,0));
+
+            //x is now a map location and point.
+            
+            //Console.WriteLine(mapLocation.DistanceTo(5,5));
+
+            //Test 'is a' checks
+            
+            //Console.WriteLine(mapLocation is MapLocation);
+            //Console.WriteLine(mapLocation is Point);
+
+            Point point = new Point(0,0);
+            Console.WriteLine(point is MapLocation);
+
+
+        }
+    }
+}

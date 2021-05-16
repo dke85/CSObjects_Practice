@@ -1,0 +1,7 @@
+namespace ObjectPractice{
+    
+    class Tower
+    {
+        
+    }
+}
