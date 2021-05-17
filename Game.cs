@@ -27,12 +27,23 @@ namespace ObjectPractice
                         new MapLocation(7,2, map)
                     }
                 );
+                /*
+                Replaced by properties
                 MapLocation location = path.GetLocationAt(8);
 
                 if(location != null)
                 {
                     Console.WriteLine(location.X + "," + location.Y);
-                }
+                }*/
+
+                /* Removed since set was made private
+                Invader invader = new Invader();
+                MapLocation location = new MapLocation(0, 0, map);
+
+                invader.Location = location;
+
+                location = invader.Location;
+                */
 
             //MapLocation mapLocation = new MapLocation(20, 20, map);
             //    MapLocation[**moved to new Path path**] path = ;
