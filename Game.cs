@@ -15,18 +15,27 @@ namespace ObjectPractice
             //MapLocation x = new MapLocation(4, 2);
             try
             {
-            //MapLocation mapLocation = new MapLocation(20, 20, map);
-                MapLocation[] path = 
+                Path path = new Path(
+                    new [] {
+                        new MapLocation(0,2, map),
+                        new MapLocation(1,2, map),
+                        new MapLocation(2,2, map),
+                        new MapLocation(3,2, map),
+                        new MapLocation(4,2, map),
+                        new MapLocation(5,2, map),
+                        new MapLocation(6,2, map),
+                        new MapLocation(7,2, map)
+                    }
+                );
+                MapLocation location = path.GetLocationAt(8);
+
+                if(location != null)
                 {
-                    new MapLocation(0,2, map),
-                    new MapLocation(1,2, map),
-                    new MapLocation(2,2, map),
-                    new MapLocation(3,2, map),
-                    new MapLocation(4,2, map),
-                    new MapLocation(5,2, map),
-                    new MapLocation(6,2, map),
-                    new MapLocation(7,2, map)
-                };
+                    Console.WriteLine(location.X + "," + location.Y);
+                }
+
+            //MapLocation mapLocation = new MapLocation(20, 20, map);
+            //    MapLocation[**moved to new Path path**] path = ;
             }
             catch(OutOfBoundsException ex)
             {
@@ -36,9 +45,9 @@ namespace ObjectPractice
             {
                 Console.WriteLine("Unhandled GameDefenseException");                
             }
-            catch(Exception)
+            catch(Exception ex)
             {
-                Console.WriteLine("Unhandled Exception");
+                Console.WriteLine("Unhandled Exception  " + ex);
             }
             //bool isOnMap = map.OnMap(point);
             //Console.WriteLine(isOnMap);
