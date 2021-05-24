@@ -8,6 +8,8 @@ namespace ObjectPractice{
             _path = path;
         }
 
+        public int Length => _path.Length;
+
         public MapLocation GetLocationAt(int pathStep)
         {
             /*if(pathStep < _path.Length){
