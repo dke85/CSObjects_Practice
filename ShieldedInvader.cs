@@ -5,10 +5,9 @@ namespace ObjectPractice
     
     class ShieldedInvader : Invader
     {
+        private static Random _random = new Random();
         public ShieldedInvader(Path path) : base(path)
-        {
-            private static Random _random = new Random();
-        }
+        {}
         public override void DecreaseHealth (int factor)
         {
             if(_random.NextDouble() < .5)
