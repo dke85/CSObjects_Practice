@@ -1,4 +1,7 @@
-namespace ObjectPractice{
+using System;
+
+namespace ObjectPractice
+{
     
     class Tower
     {
@@ -46,7 +49,20 @@ namespace ObjectPractice{
                 // Do stuff with invaders
                 if(invader.IsActive && _location.InRangeOf(invader.Location, _range))
                 {
-                    invader.DecreaseHealth(_power);
+                    if(IsSuccessfulShot())
+                    {
+                        invader.DecreaseHealth(_power);
+                        
+                        if(invader.IsNeutralized)
+                        {
+                            Console.WriteLine("Neutralized and invader!");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Shot at and misses an invader");
+                    }
+                    
                     break;
                 }
             }

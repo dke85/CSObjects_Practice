@@ -1,4 +1,7 @@
-namespace ObjectPractice{
+using System;
+
+namespace ObjectPractice
+{
     
     class Invader
     {
@@ -64,9 +67,11 @@ namespace ObjectPractice{
         */
         public void Move() => _pathStep += 1;
 
-        public void DecreaseHealth (int factor)
+        public virtual void DecreaseHealth (int factor)
         {
-            Health -= factor;
+                Health -= factor;
+                Console.WriteLine("Shot at and hit an invader!");
+            
         }
     }
 }
