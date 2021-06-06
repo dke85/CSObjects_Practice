@@ -6,6 +6,7 @@ namespace ObjectPractice
     class ShieldedInvader : Invader
     {
         private static Random _random = new Random();
+        
         public ShieldedInvader(Path path) : base(path)
         {}
         public override void DecreaseHealth (int factor)

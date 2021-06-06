@@ -35,6 +35,8 @@ namespace ObjectPractice
         private readonly Path _path;
         private int _pathStep = 0;
 
+        protected virtual int StepSize { get; } = 1;
+
         /*public MapLocation Location { 
             get
                 {
@@ -45,7 +47,7 @@ namespace ObjectPractice
             */
         public MapLocation Location => _path.GetLocationAt(_pathStep);
 
-        public int Health { get; set; } = 2;
+        public virtual int Health { get; protected set; } = 2;
 
         //True if the invasder has reached the end of the path
         public bool HasScored {get { return _pathStep >= _path.Length;}}
@@ -65,7 +67,7 @@ namespace ObjectPractice
         }
         Can be rewritten as below
         */
-        public void Move() => _pathStep += 1;
+        public void Move() => _pathStep += StepSize;
 
         public virtual void DecreaseHealth (int factor)
         {
