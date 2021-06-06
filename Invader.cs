@@ -3,7 +3,7 @@ using System;
 namespace ObjectPractice
 {
     
-    class Invader
+    abstract class Invader
     {
         // ** note used ** private MapLocation _location;
 
