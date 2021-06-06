@@ -11,7 +11,7 @@ namespace ObjectPractice
         {
             if (!map.OnMap(this))
             {
-                throw new OutOfBoundsException(x + "," + y + " is outside theboundaries of the map.");
+                throw new OutOfBoundsException(this + " is outside theboundaries of the map.");
             }
         }
 

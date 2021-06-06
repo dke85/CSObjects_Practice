@@ -55,7 +55,7 @@ namespace ObjectPractice
                         
                         if(invader.IsNeutralized)
                         {
-                            Console.WriteLine("Neutralized and invader!");
+                            Console.WriteLine("Neutralized and invader! at " + invader.Location + "!");
                         }
                     }
                     else

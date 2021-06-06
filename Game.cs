@@ -28,6 +28,14 @@ namespace ObjectPractice
                     }
                 );
 
+                MapLocation location = new MapLocation(0,2, map);
+
+                if(path.IsOnPath(location))
+                {
+                    Console.WriteLine(location + " is on the path");
+                    return;
+                }
+
                 Invader[] invaders =
                 {
                     new ShieldedInvader(path),
@@ -37,7 +45,7 @@ namespace ObjectPractice
                 };
 
                 Tower[] towers ={
-                    new Tower (new MapLocation(1, 3, map)),
+                    new SuperTower (new MapLocation(1, 3, map)),
                     new PowerTower (new MapLocation(3, 3, map)),
                     new SniperTower (new MapLocation(5, 3, map)),
                     new LongRangeTower (new MapLocation(7, 3, map))

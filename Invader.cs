@@ -5,7 +5,7 @@ namespace ObjectPractice
     
     class Invader
     {
-        private MapLocation _location;
+        // ** note used ** private MapLocation _location;
 
 /*
         public MapLocation GetLocation()
