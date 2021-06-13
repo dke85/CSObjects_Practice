@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Seika_x\\Documents\\GitHub\\CS_Objects\\CS_Objects.csproj",
-        "projectName": "Practice Game",
+        "projectName": "CS_Objects",
         "projectPath": "C:\\Users\\Seika_x\\Documents\\GitHub\\CS_Objects\\CS_Objects.csproj",
         "packagesPath": "C:\\Users\\Seika_x\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Seika_x\\Documents\\GitHub\\CS_Objects\\obj\\",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

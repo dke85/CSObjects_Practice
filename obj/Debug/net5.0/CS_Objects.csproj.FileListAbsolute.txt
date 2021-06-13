@@ -3,14 +3,14 @@ C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\CS_Objects.Generat
 C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\CS_Objects.AssemblyInfoInputs.cache
 C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\CS_Objects.AssemblyInfo.cs
 C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\CS_Objects.csproj.CoreCompileInputs.cache
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\CS_Objects.exe
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\CS_Objects.deps.json
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\CS_Objects.runtimeconfig.json
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\CS_Objects.runtimeconfig.dev.json
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\CS_Objects.dll
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\ref\CS_Objects.dll
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\CS_Objects.pdb
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\CS_Objects.dll
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\ref\CS_Objects.dll
+C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\CS_Objects.pdb
 C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\CS_Objects.genruntimeconfig.cache
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\Practice Game.exe
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\Practice Game.deps.json
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\Practice Game.runtimeconfig.json
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\Practice Game.runtimeconfig.dev.json
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\Practice Game.dll
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\ref\Practice Game.dll
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\bin\Debug\net5.0\Practice Game.pdb
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\Practice Game.dll
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\ref\Practice Game.dll
-C:\Users\Seika_x\Documents\GitHub\CS_Objects\obj\Debug\net5.0\Practice Game.pdb

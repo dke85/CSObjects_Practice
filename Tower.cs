@@ -23,7 +23,7 @@ namespace ObjectPractice
             return Tower._random.NextDouble() < Accuracy;
         }
 
-        public void FireOnInvaders(Invader[] invaders)
+        public void FireOnInvaders(IInvader[] invaders)
         {
 
             /*int index = 0;
@@ -44,7 +44,7 @@ namespace ObjectPractice
             }
             Same as foreach loop*/
 
-            foreach(Invader invader in invaders)
+            foreach(IInvader invader in invaders)
             {
                 // Do stuff with invaders
                 if(invader.IsActive && _location.InRangeOf(invader.Location, Range))
